@@ -1,4 +1,4 @@
-const { ExampleDir, SourceDir, DistDir } = require("./config");
+const { ExampleDir, SourceDir, DistDir,Appname } = require("./config");
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
@@ -68,6 +68,6 @@ module.exports = {
     },
   },
   plugins: [
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
   ],
 };

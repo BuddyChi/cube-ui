@@ -1,6 +1,6 @@
 <template>
 <section class="sec">
-    button
+    <cube-button></cube-button>
 </section>
 </template>
 <script>

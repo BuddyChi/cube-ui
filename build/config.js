@@ -5,5 +5,6 @@ const DistDir = Path.join(__dirname,'../dist');
 module.exports = {
     ExampleDir,
     SourceDir,
-    DistDir
+    DistDir,
+    Appname: 'Cube'
 }
