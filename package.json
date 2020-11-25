@@ -1,0 +1,31 @@
+{
+  "name": "hs-ui",
+  "version": "1.0.0",
+  "description": "A vue ui components for mobile.",
+  "main": "index.js",
+  "author": "Buddy Chi",
+  "license": "MIT",
+  "scripts": {
+    "build-example": "./node_modules/.bin/webpack --config ./build/webpack.config.example.js",
+    "dev": "webpack serve --config ./build/webpack.config.dev.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "sass-loader": "^10.0.5",
+    "url-loader": "^4.1.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.3.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-router": "^3.4.8"
+  }
+}
