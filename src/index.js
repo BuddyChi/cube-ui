@@ -1,7 +1,9 @@
 import Button from "./components/button";
+import Icon from "./components/icon";
 import './styles/index.scss'
 const Components = {
   Button,
+  Icon
 };
 
 function install(Vue) {

@@ -1,0 +1,193 @@
+$font-family: "cubeIcons";
+
+@font-face {
+  font-family: $font-family;
+  src : url($font-path+"/icomoon.ttf") format("truetype"),
+  url($font-path+"/icomoon.woff") format("woff"),
+  url($font-path+"/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cube-icon {
+    display: inline-block;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+.cube-icon-cny::before{
+  content: "\e911";
+}
+.cube-icon-wheel::before{
+  content: "\e925";
+}
+.cube-icon-phone::before{
+  content: "\e900";
+}
+.cube-icon-location::before{
+  content: "\e901";
+}
+.cube-icon-arrow-right::before{
+  content: "\e915";
+}
+.cube-icon-arrow-left::before{
+  content: "\e913";
+}
+.cube-icon-arrow-top::before{
+  content: "\e902";
+}
+.cube-icon-arrow-down::before{
+  content: "\e914";
+}
+.cube-icon-arrow-long-right::before{
+  content: "\e922";
+}
+.cube-icon-arrow-long-left::before{
+  content: "\e921";
+}
+.cube-icon-arrow-long-top::before{
+  content: "\e91e";
+}
+.cube-icon-arrow-long-bottom::before{
+  content: "\e920";
+}
+.cube-icon-cry::before{
+  content: "\e91c";
+}
+.cube-icon-scene::before{
+  content: "\e903";
+}
+.cube-icon-clock::before{
+  content: "\e904";
+}
+.cube-icon-bus::before{
+  content: "\e905";
+}
+.cube-icon-hotel::before{
+  content: "\e906";
+}
+.cube-icon-food::before{
+  content: "\e907";
+}
+.cube-icon-cinema::before{
+  content: "\e908";
+}
+.cube-icon-more::before{
+  content: "\e909";
+}
+.cube-icon-station::before{
+  content: "\e90a";
+}
+.cube-icon-nav::before{
+  content: "\e90b";
+}
+.cube-icon-share::before{
+  content: "\e90c";
+}
+.cube-icon-share-fill::before{
+  content: "\ea82";
+}
+.cube-icon-star-stroke::before{
+  content: "\e90d";
+}
+.cube-icon-star-half::before{
+  content: "\e912";
+}
+.cube-icon-location-mistake::before{
+  content: "\e90e";
+}
+.cube-icon-location-around::before{
+  content: "\e90f";
+}
+.cube-icon-star-fill::before{
+  content: "\e910";
+}
+.cube-icon-business::before{
+  content: "\e916";
+}
+.cube-icon-food-2::before{
+  content: "\e917";
+}
+.cube-icon-gym::before{
+  content: "\e918";
+}
+.cube-icon-park::before{
+  content: "\e919";
+}
+.cube-icon-wifi::before{
+  content: "\e91a";
+}
+.cube-icon-meeting::before{
+  content: "\e91b";
+}
+.cube-icon-smile::before{
+  content: "\e91d";
+}
+.cube-icon-cry::before{
+  content: "\e91c";
+}
+.cube-icon-subway::before{
+  content: "\e91f";
+}
+.cube-icon-camera::before{
+  content: "\e923";
+}
+.cube-icon-mic::before{
+  content: "\e924";
+}
+.cube-icon-compass-left::before{
+  content: "\e949";
+}
+.cube-icon-compass-right::before{
+  content: "\e94a";
+}
+.cube-icon-compass-circle::before{
+  content: "\e94b";
+}
+.cube-icon-map-fill::before{
+  content: "\e94c";
+}
+.cube-icon-map::before{
+  content: "\e94d";
+}
+.cube-icon-loading{
+  @include animation(rotating 2s linear infinite);
+  &::before{
+    content: "\e97c";
+  }
+}
+.cube-icon-search::before{
+  content: "\e986";
+}
+.cube-icon-gift::before{
+  content: "\e99f";
+}
+.cube-icon-sphere::before{
+  content: "\e9c9";
+}
+.cube-icon-earth::before{
+  content: "\e9ca";
+}
+.cube-icon-plus::before{
+  content: "\ea0a";
+}
+.cube-icon-minus::before{
+  content: "\ea0b";
+}
+.cube-icon-close-circle::before{
+  content: "\ea0d";
+}
+.cube-icon-close::before{
+  content: "\ea0f";
+}
+.cube-icon-checkmark::before{
+  content: "\ea10";
+}

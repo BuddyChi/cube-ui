@@ -36,6 +36,7 @@ module.exports = {
                 },
               },
             ],
+            
           },
           postLoaders: {
             html: "babel-loader?sourceMap",
@@ -57,7 +58,14 @@ module.exports = {
         options: {
           name: 'assets/[name].[ext]'
         }
-      }
+      },
+      {
+        test: /fonts\/\w+\.(svg|ttf|woff)(\?.*)?$/,
+        loader: 'file-loader',
+        options: {
+          name: 'assets/fonts/[name].[ext]'
+        }
+      },
     ],
   },
   resolve: {
