@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./app.vue";
 import VueRouter from "vue-router";
 import Cube from "cube";
+import './styles/index.scss';
 Vue.use(VueRouter);
 Vue.use(Cube);
 const Router = new VueRouter({
@@ -9,8 +10,8 @@ const Router = new VueRouter({
   routes: [
     {
       path: "/",
-      name: "button",
-      component: () => import("./routers/button.vue"),
+      name: "home",
+      component: () => import("./routers/home.vue"),
     },
     {
       path: "/button",

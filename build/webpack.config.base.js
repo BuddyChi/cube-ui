@@ -69,6 +69,7 @@ module.exports = {
     ],
   },
   resolve: {
+    extensions: ['.js', '.vue'],
     alias: {
       "@": SourceDir,
       "@styles": `${SourceDir}/styles`,

@@ -95,3 +95,15 @@
   -o-align-self: $align;
   align-self: $align;
 }
+
+@mixin flex-both-center {
+  @include display-flex();
+  @include align-items(center);
+  @include justify-content(center);
+}
+
+@mixin flex-space-between {
+  @include display-flex();
+  @include align-items(center);
+  @include justify-content(space-between);
+}

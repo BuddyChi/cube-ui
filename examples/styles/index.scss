@@ -1,0 +1,39 @@
+@import "@styles/common/index.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.ex {
+  &.sub{
+    padding-top: 50px;
+  }
+}
+
+.ex-header {
+  position: fixed;
+  width: 100%;
+  @include strictHeight(50px);
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: $color-white-1;
+  .header-back{
+      position: absolute;
+      left: 5px;
+      @include transform(rotate(180deg))
+  }
+}
